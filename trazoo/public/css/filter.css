@@ -1,0 +1,192 @@
+@import url("buttons.css");
+@import url("check-radio-btns.css");
+@import url("select-box/select-box.css");
+@import url("popups.css");
+.sorting-filter{ 
+  width: 330px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: 15px auto;
+  position: absolute;
+  right: 15px;
+  background: #fff;
+  z-index: 9;
+  top: 35px;
+  display: none;
+}
+.sorting-filter .header-top{
+  color: #1c1c1c;
+  font-size: 14px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.sorting-filter .main-warp{
+  width: 100%;
+  float: left;
+  border-top: solid 0.5px #979797;
+  border-bottom: solid 0.5px #979797;
+  position: relative;
+}
+.sorting-filter .main-warp .nav-tabs > li {
+  float: right;
+  width: 100%;
+}
+.sorting-filter .main-warp .nav > li > a {
+    padding: 8px 15px 8px 5px;
+    background: transparent;
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+    color: #1c1c1c;
+    opacity: 0.6;
+    display: block;
+}
+.sorting-filter .bot-footer {
+    height: 80px;
+    padding: 20px 0 25px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.sorting-filter .main-warp .nav-tabs > li.active {
+    position: relative;
+}
+.sorting-filter .main-warp .nav-tabs > li.active:after{
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 10px;
+  right: -6px;
+  background: #fff;
+  border-left: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  transform: rotate(45deg);
+  z-index: 9;
+}
+.sorting-filter .bot-footer button{margin:0 7px;}
+.sorting-filter .main-warp .nav-tabs {
+  border-bottom: 0;
+  float: left;
+  width: 145px;
+  padding: 8px 0;
+}
+.sorting-filter .main-warp .nav-tabs > li.active > a, .sorting-filter .main-warp .nav-tabs > li.active > a:hover, 
+.sorting-filter .main-warp .nav-tabs > li.active > a:focus {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #2350f5 !important;
+    font-weight: 600;
+}
+.sorting-filter .main-warp .nav-tabs > li > a:hover {
+    border-color: transparent;
+    background: transparent;
+    color: #2350f5 !important;
+}
+.sorting-filter .main-warp .tab-content {
+  float: left;
+  padding: 13px 10px;
+  width: 185px;
+  border-left: solid 0.5px #979797;
+  height: 100%;
+  position: relative;
+  right: 0;
+  color: #1c1c1c;
+  font-size: 12px;
+  min-height: 160px;
+}
+.sorting-filter .main-warp .sub-cate{margin-left: 35px;}
+.sorting-filter .main-warp .sub-cate .checkbox-wp{margin-bottom: 13px}
+/*-------------start rating css-----------------*/
+.rating {
+  width: 100%;
+  float: left;
+  margin-bottom: 23px;
+}
+.rating span {
+  color: #b2b2b2;
+  font-size: 14px;
+  display: block;
+}
+/*-----------Start check box css--------------------*/
+/* The container */
+.checkbox-wp {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: normal;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-wp input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    border: solid 1px #a9a9b2;
+}
+
+/* On mouse-over, add a grey background color */
+/*.checkbox-wp:hover input ~ .checkmark {
+    background-color: #ccc;
+}*/
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-wp input:checked ~ .checkmark {
+    background-color: #a9a9b2;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-wp input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wp .checkmark:after {
+    left: 3px;
+    top: 0px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.wit-textbox{
+  margin-bottom: 20px;
+  color: #777777;
+  font-weight: normal;
+  font-size: 12px;
+  width: 100%;
+  text-align: right;
+}
+.wit-textbox input{
+    border: solid 0.5px #979797;
+    max-width: 125px;
+    height: 25px;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

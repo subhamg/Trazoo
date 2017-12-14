@@ -1,0 +1,133 @@
+.btn-light-green {
+  min-width: 100px;
+  height: 35px;
+  border-radius: 2px;
+  background: #39c870;
+  border:1px solid #39c870;
+  color: #fff;
+  font-weight: 600;
+  padding: 0 15px;
+}
+.btn-light-green-border{
+  min-width: 100px;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid #39c870;
+  color: #000;
+  font-weight: 600;
+  background: transparent;
+  padding: 0 15px;
+}
+.no-bold{
+  font-weight: normal !important;
+}
+.sort-by-btn {
+  width: 65px;
+  height: 28px;
+  border-radius: 2px;
+  border: solid 1px #a9a9b2;
+  color: #73737d;
+  font-size: 12px;
+  text-align: center;
+  line-height: 27px;
+  cursor: pointer;
+}
+.sort-by-btn.open{
+  background: #289151;
+  color: #fff;
+  border-color:#289151; 
+}
+.view-feedback {
+  min-width: 130px;
+  height: 35px;
+  border-radius: 2px;
+  background: #6c8bff;
+  border: solid 1px #6c8bff;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 27px;
+  font-weight: 600;
+  padding: 0 15px;
+}
+.btn-feedback{
+    color: #000;
+    font-weight: bold;
+    margin: 14px 21px 20px;
+}
+.btn-feedback i {
+    font-size: 19px;
+    margin-right: 16px;
+}
+.ey-f{
+  width:22px;
+  height: 15px;
+  background: url(../images/eye.png);
+  background-size: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.ey-f-h{
+  width:22px;
+  height: 19px;
+  background: url(../images/eye-cross.png);
+  background-size: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.tic-green{
+  width:23px;
+  height: 13px;
+  background: url(../images/green-dtick.png);
+  background-size: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.bl-line{
+  width:24px;
+  height: 1px;
+  background: url(../images/smp-dline.png);
+  background-size: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.btn-gray-border{
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #979797;
+    color: #000;
+    min-width: 128px;
+    background: transparent;
+}
+.btn-gray-border:hover{
+  background: #979797;
+  color: #fff
+}
+.btn-variant{
+    min-width: 148px;
+    height: 24px;
+    color: #000;
+    background: #efefef;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+}
+.btn-variant:hover{
+  background: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------end----------------*/

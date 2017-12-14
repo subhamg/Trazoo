@@ -1,0 +1,8 @@
+@media (min-width:992px){
+	#menu_toggle{display: none}
+}
+@media (max-width:767px){
+	#menu_toggle{display: block}
+	.toggle a{padding-top: 0}
+	.top_search_warp {float: none; margin-top: 10px; display: table; margin: 10px auto;}
+}

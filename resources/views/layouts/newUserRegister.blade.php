@@ -28,6 +28,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <style>
+
+.form-control {
+    border: solid 1px #d7d7e1
+}
     .navbar{
         margin-bottom: 0px !important;
     }

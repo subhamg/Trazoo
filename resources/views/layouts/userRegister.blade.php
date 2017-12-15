@@ -22,6 +22,11 @@
     {{--<link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">--}}
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 <style>
+     
+     .form-control {
+    border: solid 1px #d7d7e1
+}   
+
     .navbar{
         margin-bottom: 0px !important;
     }

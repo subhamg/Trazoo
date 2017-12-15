@@ -7,13 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Trazoo
-
-A e-Commerce website that facilitate online transactions of goods and services through means of the transfer of information and funds over the Internet. Trazoo contains two types of e-Commerce:
-
-* Business-to-Business (B2B): Electronic transactions of goods and services between companies.
-* Business-to-Consumer (B2C): Electronic transactions of goods and services between companies and consumers.
-
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:

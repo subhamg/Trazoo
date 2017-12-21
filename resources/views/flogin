@@ -1,0 +1,26 @@
+//New User Registration
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" >
+  $(function() {
+  $(".submit").click(function() {
+  var data1 = $("#data1").val();
+  var data2 = $("#data2").val();
+  var dataString = 'data1='+ data1 + '&data2=' + data2;
+
+if(data1=='' || data2=='') {
+          $('.success').fadeOut(200).hide();
+          $('.error').fadeOut(200).show();   }
+else
+{   $.ajax({
+    type: "POST",
+    url: "post.php",
+    data: dataString,
+    success: function(){
+     $('.success').fadeIn(200).show();
+     $('.error').fadeOut(200).hide();
+   }});   }
+return false;
+
+});  });
+</script>

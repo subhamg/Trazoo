@@ -31,15 +31,22 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `inv`;
 CREATE TABLE IF NOT EXISTS `inv` (
   `id` int(100) NOT NULL AUTO_INCREMENT,
-  `user_id` varchar(100) NOT NULL,
+  
+  
+  `product_name` varchar(100) NOT NULL, 
   `product_code` varchar(100) NOT NULL,
-  `product_name` varchar(100) NOT NULL,
+  `product_photo` varchar(100) NOT NULL,
+  
   `in_stock` varchar(100) NOT NULL,
   `total_variats` varchar(100) NOT NULL,
   `whole_sale_price` varchar(100) NOT NULL,
   `status` varchar(100) NOT NULL,
-  `product_photo` varchar(100) NOT NULL,
-  `product_type` varchar(100) NOT NULL,
+  
+  `product_type1` varchar(100) NOT NULL,
+  `product_type2` varchar(100) NOT NULL,
+  `product_type3` varchar(100) NOT NULL,
+  `product_type4` varchar(100) NOT NULL,
+
   `selling_format` varchar(100) NOT NULL,
   `moq` varchar(100) NOT NULL,
   `mrp` varchar(100) NOT NULL,
@@ -62,6 +69,7 @@ CREATE TABLE IF NOT EXISTS `inv` (
   `fit_type` varchar(100) NOT NULL,
   `pattern_type` varchar(100) NOT NULL,
   `wash_care` varchar(100) NOT NULL,
+  `user_id` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 COMMIT;

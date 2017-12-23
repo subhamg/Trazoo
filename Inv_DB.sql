@@ -31,6 +31,7 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `inv`;
 CREATE TABLE IF NOT EXISTS `inv` (
   `id` int(100) NOT NULL AUTO_INCREMENT,
+  `user_id` varchar(100) NOT NULL,
   `product_code` varchar(100) NOT NULL,
   `product_name` varchar(100) NOT NULL,
   `in_stock` varchar(100) NOT NULL,

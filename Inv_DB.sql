@@ -37,11 +37,6 @@ CREATE TABLE IF NOT EXISTS `inv` (
   `product_code` varchar(100) NOT NULL,
   `product_photo` varchar(100) NOT NULL,
   
-  `in_stock` varchar(100) NOT NULL,
-  `total_variats` varchar(100) NOT NULL,
-  `whole_sale_price` varchar(100) NOT NULL,
-  `status` varchar(100) NOT NULL,
-  
   `product_type1` varchar(100) NOT NULL,
   `product_type2` varchar(100) NOT NULL,
   `product_type3` varchar(100) NOT NULL,
@@ -51,15 +46,23 @@ CREATE TABLE IF NOT EXISTS `inv` (
   `moq` varchar(100) NOT NULL,
   `mrp` varchar(100) NOT NULL,
   `shipping_time` varchar(100) NOT NULL,
-  `description` varchar(100) NOT NULL,
-  `warranty_application` varchar(100) NOT NULL,
-  `warranty_duration` varchar(100) NOT NULL,
-  `warranty_provider` varchar(100) NOT NULL,
-  `shipping_responsibility` varchar(100) NOT NULL,
-  `free_shipping` varchar(100) NOT NULL,
-  `weight_per_kg` varchar(100) NOT NULL,
-  `items_in_one_box` varchar(100) NOT NULL,
-  `box_dimensions` varchar(100) NOT NULL,
+  
+  `in_stock` varchar(100) NOT NULL,
+  
+ 
+  `description` varchar(500) NOT NULL,
+ 
+  `status` varchar(100) NOT NULL,
+  
+  
+  
+
+  
+  `total_variats` varchar(100) NOT NULL,
+  `whole_sale_price` varchar(100) NOT NULL,
+  
+  
+  
   `brand_name` varchar(100) NOT NULL,
   `style_type` varchar(100) NOT NULL,
   `ideal_for` varchar(100) NOT NULL,
@@ -69,6 +72,24 @@ CREATE TABLE IF NOT EXISTS `inv` (
   `fit_type` varchar(100) NOT NULL,
   `pattern_type` varchar(100) NOT NULL,
   `wash_care` varchar(100) NOT NULL,
+  
+  
+  `shipping_resp` varchar(100) NOT NULL,
+    `free_shipping` varchar(100) NOT NULL,
+      `weight_per_unit` varchar(100) NOT NULL,
+        `item_in_one_box` varchar(100) NOT NULL,
+        `box_dimension_Length` varchar(100) NOT NULL,
+        `box_dimension_Breadth` varchar(100) NOT NULL,
+        `box_dimension_Height` varchar(100) NOT NULL,
+
+  
+
+
+
+  
+  
+  
+  
   `user_id` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
